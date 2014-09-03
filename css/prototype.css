@@ -1,0 +1,250 @@
+html
+{
+	background:#bfdaff;
+}
+
+body
+{
+	font-family: arial, 'Lucida Grande', 'Bitstream Vera Sans', verdana, sans-serif;
+	font-size:12px;
+	line-height:1.2;
+	text-align:left;
+	color:#444;
+}
+
+/* GENERAL STYLES */
+a
+{
+	color:#7B7BD6;
+	text-decoration:none;
+}
+
+h1
+{
+	font-size:16px;
+}
+
+h3
+{
+	font-size:14px;
+}
+.clearfix:after
+{
+	clear:both;
+	content: " ";
+	display:block;
+	font-size: 0;
+	height:0;
+	line-height: 0;
+	visibility: hidden;
+	width:0;
+}
+
+.alert
+{
+	height:15px;
+	visibility:hidden;
+	color:#f00;
+}
+
+/* Container */
+
+#container
+{
+	position:relative;
+	clear:both;
+	padding:85px;
+	
+}
+
+
+/* Main Panel*/
+
+#main-panel
+{
+	border:1px solid #000;
+	width:795px;
+	min-height: 735px;
+	margin:0px auto;
+	background-color:#d6d6d6;	
+	
+	/*round corner*/
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	/*box shadow*/
+	box-shadow: 0px 0px 20px #333333;
+}
+
+/* Main Content*/
+#main-content
+{
+	border:1px solid #7d7d7d;
+	background-color:#f4f4f4;
+	
+	margin:10px auto;
+	
+	margin-top:38px;
+	width:725px;
+	min-height:635px;
+	padding:25px;
+	padding-top:10px;
+	
+	/*round corner*/
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+
+/* Form */
+#data-form
+{
+	margin-bottom:40px;
+}
+#data-form span
+{
+	display:block;
+	float:left;
+}
+
+span.input
+{
+	position:relative;
+}
+span.input .count
+{
+	position:absolute;
+	right:5px;
+	top:5px;
+	
+	width:20px;
+	height:20px;
+	padding:5px;
+	text-align:center;
+	background:#eee;
+	
+	color:#fff;
+	font-size:14pt;
+	
+	visibility:hidden;
+}
+
+span.input .type
+{
+	position:absolute;
+	left:10px;
+	top:10px;
+	
+	color:#000;
+	font-size:12pt;
+}
+
+input.defaultText
+{
+	font-size: 14pt;
+	border:1px solid #5a5a5a;
+	height: 28px;
+	width: 565px;
+	padding:5px;
+	font-style:italic;
+	color:#d4d4d4;
+}
+
+input.defaultTextActive
+{
+	font-size: 12pt;
+	
+	font-style:normal;
+	color:#000000;
+}
+
+span.button
+{
+	background: url("../img/btn_add.png") no-repeat left top;
+	height: 47px;
+	width: 140px;
+	margin-left:5px;
+	/*text-align:center;
+	padding-top:12px;
+	font-size:18px;
+	font-weight:bold;
+	color:#fff;*/
+}
+
+span.button:hover
+{
+	cursor:pointer;
+}
+
+/* Table */
+
+#data-table
+{
+	width:100%;
+}
+
+#data-table thead tr, #data-table tbody tr
+{
+	font-size:12pt;
+	color:#000;
+	
+}
+
+#data-table thead tr{
+	height:30px;
+	
+	/*background*/
+	background:#e2e2e2;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#e2e2e2), to(#c1c1c1));
+	background:-webkit-linear-gradien(top, #e2e2e2, #c1c1c1);
+}
+
+#data-table thead th, #data-table tbody td
+{
+	border:1px solid #888888;
+	text-align:right;
+	padding:5px;
+}
+
+#data-table th:first-child, #data-table tbody td:first-child
+{
+	text-align:left;
+}
+
+
+#data-table tbody tr
+{
+	height:40px;	
+}
+
+#data-table tbody tr.new
+{
+	background-color:#fffbcc;	
+}
+
+#data-table tbody tr.new td
+{
+	display:none;	
+}
+
+#data-table tbody td
+{
+	padding:8px;
+	border:1px solid #c4c4c4;
+	
+}
+
+#data-table tbody td.plus
+{
+	color:#157e00;
+}
+
+#data-table tbody td.minus
+{
+	color:#fd1d00;
+}
+
+
+
+
+
+
